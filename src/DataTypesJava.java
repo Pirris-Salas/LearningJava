@@ -8,6 +8,19 @@ public class DataTypesJava {
      double nD = 123.456;
      float nF = 123.456F;
 
+
+     var salary = 1000; // int
+     //pension 3%
+     var pension = salary * 0.03; // double
+        var totalSalary = salary - pension;
+
+        System.out.println("Salario: " + salary + " Pension: " + pension + ". Salario total: " + totalSalary);
+
+      var employeeName = "Luis Salas";
+
+        System.out.println("Empleado: " + employeeName + ". Salario: " + totalSalary);
+
+
     }
 
 }
